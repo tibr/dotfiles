@@ -19,3 +19,6 @@ defaults write com.apple.finder NewWindowTarget PfHm
 # Bottom left screen corner → Start screen saver
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
+
+# Disable Gatekeeper
+sudo spctl --master-disable
