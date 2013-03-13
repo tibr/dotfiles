@@ -1,5 +1,7 @@
 # Inspired by zach holman
 #   https://github.com/holman/dotfiles/blob/master/osx/set-defaults.sh
+# and mathias bynens
+#   https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 # Show the ~/Library folder.
 chflags nohidden ~/Library
