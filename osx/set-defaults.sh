@@ -18,6 +18,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 # Show the home folder instead of all files when opening a new finder window
 defaults write com.apple.finder NewWindowTarget PfHm
 
+# Don't include the name when copying the email address in mail
+defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool NO
+
 # Top right screen corner → Desktop
 defaults write com.apple.dock wvous-tr-corner -int 4
 defaults write com.apple.dock wvous-tr-modifier -int 0
