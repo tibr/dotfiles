@@ -38,3 +38,6 @@ sudo spctl --master-disable
 
 /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.finder.plist" -c 'Delete "StandardViewSettings:ListViewSettings:calculateAllSizes" bool'
 /usr/libexec/PlistBuddy "$HOME/Library/Preferences/com.apple.finder.plist" -c 'Add "StandardViewSettings:ListViewSettings:calculateAllSizes" bool true'
+
+# Disable iCloud as default save location
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
