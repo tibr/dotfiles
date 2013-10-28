@@ -1,0 +1,1 @@
+alias cdc="cd ~/code"
