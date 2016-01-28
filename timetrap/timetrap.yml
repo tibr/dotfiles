@@ -1,0 +1,13 @@
+---
+database_file: "/Users/tim/Dropbox (Privat)/.timetrap.db"
+round_in_seconds: 900
+append_notes_delimiter: " "
+formatter_search_paths:
+- "/Users/tim/.timetrap/formatters"
+default_formatter: text
+auto_sheet: branch_name
+auto_sheet_search_paths:
+- "/Users/tim/src/dotfiles/timetrap/auto_sheets"
+default_command: 
+auto_checkout: false
+require_note: false
